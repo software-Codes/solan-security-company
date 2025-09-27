@@ -1,12 +1,14 @@
-import React from 'react'
+import React from 'react';
+import HeroSection from '@/components/HeroSection';
+import ServicesOverview from '@/components/ServicesOverview';
 
-const page = () => {
+const HomePage = () => {
   return (
-    <div className='flex flex-col items-center justify-center h-screen' >
-      
-      <button className='bg-blue-500 text-white p-2 rounded-md' >Click me</button>
+    <div className="min-h-screen bg-background">
+      <HeroSection />
+      <ServicesOverview />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default HomePage;
