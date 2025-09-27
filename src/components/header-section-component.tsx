@@ -15,6 +15,8 @@ const navigation = [
   { name: "About", href: "/pages/about-us" },
   { name: "Services", href: "/pages/services" },
   { name: "Contact", href: "/pages/contact" },
+  { name: "Careers", href: "/pages/careers" },
+  { name: "Book", href: "/pages/book" },
 ];
 
 export default function HeaderSectionComponent() {
@@ -78,7 +80,7 @@ export default function HeaderSectionComponent() {
               asChild
               className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600"
             >
-              <Link href="/book">Book Now</Link>
+              <Link href="/pages/book">Book Now</Link>
             </Button>
 
             {/* Theme Toggle */}
