@@ -3,7 +3,9 @@ import emailjs from '@emailjs/browser';
 // EmailJS configuration interface
 interface EmailConfig {
   serviceId: string;
-  templateId: string;
+  contactTemplateId: string;
+  bookingTemplateId: string;
+  careerTemplateId: string;
   publicKey: string;
 }
 
@@ -63,7 +65,9 @@ class EmailService {
   constructor() {
     this.config = {
       serviceId: process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || '',
-      templateId: process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || '',
+      contactTemplateId: process.env.NEXT_PUBLIC_EMAILJS_CONTACT_TEMPLATE_ID || '',
+      bookingTemplateId: process.env.NEXT_PUBLIC_EMAILJS_BOOKING_TEMPLATE_ID || '',
+      careerTemplateId: process.env.NEXT_PUBLIC_EMAILJS_CONTACT_TEMPLATE_ID || '',
       publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || '',
     };
   }
@@ -80,7 +84,7 @@ class EmailService {
   private validateConfig(): boolean {
     return Boolean(
       this.config.serviceId && 
-      this.config.templateId && 
+      this.config.contactTemplateId && 
       this.config.publicKey
     );
   }
@@ -141,7 +145,7 @@ class EmailService {
       // Send email
       const response = await emailjs.send(
         this.config.serviceId,
-        this.config.templateId,
+        this.config.contactTemplateId,
         templateParams
       );
 
@@ -304,7 +308,7 @@ class EmailService {
       // Send email
       const response = await emailjs.send(
         this.config.serviceId,
-        this.config.templateId,
+        this.config.bookingTemplateId,
         templateParams
       );
 
@@ -362,7 +366,7 @@ class EmailService {
       // Send email
       const response = await emailjs.send(
         this.config.serviceId,
-        this.config.templateId,
+        this.config.careerTemplateId,
         templateParams
       );
 

@@ -178,7 +178,7 @@ export default function BookingContent() {
       console.error('Booking submission error:', error);
       setSubmitStatus({
         type: 'error',
-        message: 'An unexpected error occurred. Please try again or contact us directly at 0789204855.'
+        message: 'An unexpected error occurred. Please try again or contact us directly at 0723128349.'
       });
     } finally {
       setIsSubmitting(false);
@@ -237,8 +237,8 @@ export default function BookingContent() {
               </div>
               <div className="text-left">
                 <p className="text-sm font-medium text-red-900 dark:text-red-100">Urgent Security Needed?</p>
-                <Link href="tel:0789204855" className="text-3xl font-bold text-red-600 hover:text-red-700 transition-colors">
-                  0789204855
+                <Link href="tel:0723128349" className="text-3xl font-bold text-red-600 hover:text-red-700 transition-colors">
+                0723128349
                 </Link>
               </div>
             </div>

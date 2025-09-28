@@ -293,8 +293,8 @@ export default function AboutUsContent() {
               <div className="text-center p-6 bg-background rounded-xl border shadow-sm">
                 <Phone className="h-8 w-8 mx-auto mb-3 text-red-600" />
                 <h3 className="font-semibold mb-2">Call Us</h3>
-                <Link href="tel:0789204855" className="text-red-600 hover:text-red-700 font-medium">
-                  0789204855
+                <Link href="tel:0723128349" className="text-red-600 hover:text-red-700 font-medium">
+                0723128349
                 </Link>
               </div>
               
@@ -382,10 +382,10 @@ export default function AboutUsContent() {
                     24/7 Emergency Hotline
                   </p>
                   <Link
-                    href="tel:0789204855"
+                    href="tel:0723128349"
                     className="text-xl md:text-2xl font-bold text-red-600 hover:text-red-700"
                   >
-                    0789204855
+                    0723128349
                   </Link>
                 </div>
               </div>

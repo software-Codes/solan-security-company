@@ -22,7 +22,14 @@ import {
   Calendar,
   MessageCircle
 } from "lucide-react";
-import { heroSecurityImage } from "../../public/images/images";
+import { 
+  personalSecurityImage,
+  residentialSecurityImage,
+  corporateSecurityImage,
+  eventSecurityImage,
+  mobilePatrolsImage,
+  surveillanceSecurityImage
+} from "../../public/images/images";
 
 const servicesData = {
   personal: {
@@ -30,7 +37,7 @@ const servicesData = {
     title: "Personal Security",
     subtitle: "VIP & Executive Protection",
     description: "Professional bodyguard services and personal protection for individuals and families with comprehensive threat assessment and risk management.",
-    image: heroSecurityImage,
+    image: personalSecurityImage,
     features: [
       "Personal Bodyguards",
       "VIP Protection", 
@@ -65,7 +72,7 @@ const servicesData = {
     title: "Residential Security",
     subtitle: "Home & Property Protection",
     description: "Comprehensive security solutions for homes, estates, and residential properties with 24/7 monitoring and rapid response capabilities.",
-    image: heroSecurityImage,
+    image: residentialSecurityImage,
     features: [
       "24/7 Security Guards",
       "Access Control",
@@ -100,7 +107,7 @@ const servicesData = {
     title: "Corporate Security",
     subtitle: "Business & Office Protection", 
     description: "Professional security services for businesses, offices, and commercial properties including risk assessment and security consulting.",
-    image: heroSecurityImage,
+    image: corporateSecurityImage,
     features: [
       "Office Security",
       "Asset Protection",
@@ -135,7 +142,7 @@ const servicesData = {
     title: "Event Security",
     subtitle: "Crowd Control & Management",
     description: "Specialized security services for events, conferences, and public gatherings with experienced crowd control and emergency response teams.",
-    image: heroSecurityImage,
+    image: eventSecurityImage,
     features: [
       "Crowd Control",
       "VIP Management",
@@ -170,7 +177,7 @@ const servicesData = {
     title: "Mobile Patrols",
     subtitle: "Area Surveillance & Response",
     description: "Mobile security patrols for multiple locations with rapid response services and comprehensive area surveillance coverage.",
-    image: heroSecurityImage,
+    image: mobilePatrolsImage,
     features: [
       "Regular Patrols",
       "Rapid Response",
@@ -205,7 +212,7 @@ const servicesData = {
     title: "CCTV & Surveillance",
     subtitle: "Advanced Monitoring Systems",
     description: "Professional CCTV installation, monitoring, and surveillance system management with modern technology and remote access capabilities.",
-    image: heroSecurityImage,
+    image: surveillanceSecurityImage,
     features: [
       "CCTV Installation",
       "24/7 Monitoring",
@@ -399,8 +406,8 @@ export default function ServiceDetailContent({ serviceId }: ServiceDetailContent
                 </div>
                 <div className="text-left">
                   <p className="text-sm font-medium text-red-900 dark:text-red-100 mb-1">Emergency Hotline</p>
-                  <Link href="tel:0789204855" className="text-3xl font-bold text-red-600 hover:text-red-700 transition-colors">
-                    0789204855
+                  <Link href="tel:0723128349" className="text-3xl font-bold text-red-600 hover:text-red-700 transition-colors">
+                  0723128349
                   </Link>
                 </div>
               </div>

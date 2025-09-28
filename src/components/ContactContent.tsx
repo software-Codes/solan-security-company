@@ -127,7 +127,7 @@ export default function ContactContent() {
       console.error('Form submission error:', error);
       setSubmitStatus({
         type: 'error',
-        message: 'An unexpected error occurred. Please try again or contact us directly at 0789204855.'
+        message: 'An unexpected error occurred. Please try again or contact us directly at 0723128349.'
       });
     } finally {
       setIsSubmitting(false);
@@ -152,9 +152,9 @@ export default function ContactContent() {
     {
       icon: Phone,
       title: "Call Us",
-      primary: "0789204855",
+      primary: "0723128349",
       secondary: "24/7 Emergency Hotline",
-      href: "tel:0789204855",
+      href: "tel:0723128349",
       color: "text-red-600"
     },
     {
@@ -227,8 +227,8 @@ export default function ContactContent() {
               </div>
               <div className="text-left">
                 <p className="text-xs md:text-sm font-medium text-red-900 dark:text-red-100">Emergency? Call Now!</p>
-                <Link href="tel:0789204855" className="text-2xl md:text-3xl font-bold text-red-600 hover:text-red-700 transition-colors">
-                  0789204855
+                <Link href="tel:0723128349" className="text-2xl md:text-3xl font-bold text-red-600 hover:text-red-700 transition-colors">
+                0723128349
                 </Link>
               </div>
             </div>
@@ -535,7 +535,7 @@ export default function ContactContent() {
                 size="lg"
                 className="bg-gradient-to-r from-red-500 to-orange-500 hover:from-red-600 hover:to-orange-600 text-white px-8 py-6 text-lg font-semibold shadow-lg hover:shadow-xl transition-all"
               >
-                <Link href="tel:0789204855" className="flex items-center gap-2">
+                <Link href="tel:0723128349" className="flex items-center gap-2">
                   <Phone className="h-5 w-5" />
                   Call Emergency Line
                 </Link>

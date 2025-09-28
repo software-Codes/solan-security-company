@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     title: "Solan Security Company - Professional Security Services",
     description:
       "Top-quality security services in Meru, Kenya. Private, event, and corporate security solutions.",
-    images: ["/og-image.jpg"],
+    images: [solanSecurityLogo.src],
   },
   robots: {
     index: true,
@@ -88,7 +88,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <HeaderSectionComponent />
           {children}
           <Footer />

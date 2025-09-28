@@ -69,7 +69,7 @@ export default function HeaderSectionComponent() {
           <div className="hidden md:flex items-center space-x-4">
             {/* Emergency Call Button */}
             <Link
-              href="tel:0789204855"
+              href="tel:0723128349"
               className="flex items-center space-x-2 rounded-md bg-red-600 px-3 py-2 text-sm font-medium text-white hover:bg-red-700 transition-colors"
             >
               <Phone className="h-4 w-4" />
@@ -101,7 +101,7 @@ export default function HeaderSectionComponent() {
           <div className="flex md:hidden items-center space-x-2">
             {/* Emergency Call Button - Mobile */}
             <Link
-              href="tel:0789204855"
+              href="tel:0723128349"
               className="flex items-center justify-center rounded-md bg-red-600 p-2 text-white hover:bg-red-700 transition-colors"
             >
               <Phone className="h-4 w-4" />
@@ -176,12 +176,12 @@ export default function HeaderSectionComponent() {
                     className="w-full bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600"
                     onClick={() => setIsOpen(false)}
                   >
-                    <Link href="/book">Book Security Service</Link>
+                    <Link href="/pages/book">Book Security Service</Link>
                   </Button>
 
                   <div className="pt-4 border-t border-border">
                     <p className="text-sm text-muted-foreground mb-2">
-                      Emergency Contact:
+                      Emergency Contact:  
                     </p>
                     <Link
                       href="tel:0789204855"

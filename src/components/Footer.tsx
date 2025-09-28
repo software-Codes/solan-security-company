@@ -78,8 +78,8 @@ export default function Footer() {
                 <Phone className="h-5 w-5 text-red-600" />
                 <div>
                   <p className="text-xs text-red-900 dark:text-red-100 font-medium">24/7 Emergency</p>
-                  <Link href="tel:0789204855" className="text-lg font-bold text-red-600 hover:text-red-700">
-                    0789204855
+                  <Link href="tel:0723128349" className="text-lg font-bold text-red-600 hover:text-red-700">
+                  0723128349
                   </Link>
                 </div>
               </div>

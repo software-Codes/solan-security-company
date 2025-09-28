@@ -80,10 +80,10 @@ export default function HeroSection() {
                     Emergency Hotline - Available 24/7
                   </p>
                   <Link 
-                    href="tel:0789204855"
+                    href="tel:0723128349"
                     className="text-3xl font-bold bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent hover:from-red-700 hover:to-orange-700 transition-all"
                   >
-                    0789204855
+                    0723128349
                   </Link>
                 </div>
               </div>

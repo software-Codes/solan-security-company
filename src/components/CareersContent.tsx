@@ -157,7 +157,7 @@ export default function CareersContent() {
       console.error('Application submission error:', error);
       setSubmitStatus({
         type: 'error',
-        message: 'An unexpected error occurred. Please try again or contact us directly at 0789204855.'
+        message: 'An unexpected error occurred. Please try again or contact us directly at 0723128349.'
       });
     } finally {
       setIsSubmitting(false);
@@ -556,8 +556,8 @@ export default function CareersContent() {
                 </div>
                 <div className="text-left">
                   <p className="text-sm font-medium text-muted-foreground">HR Department</p>
-                  <Link href="tel:0789204855" className="text-2xl font-bold text-orange-600 hover:text-orange-700 transition-colors">
-                    0789204855
+                  <Link href="tel:0723128349" className="text-2xl font-bold text-orange-600 hover:text-orange-700 transition-colors">
+                  0723128349
                   </Link>
                 </div>
               </div>
