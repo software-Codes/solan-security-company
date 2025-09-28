@@ -1,9 +1,6 @@
-import React from 'react'
+import React from 'react';
+import CareersContent from '@/components/CareersContent';
 
-const CareersPage = () => {
-  return (
-    <div>CareersPage</div>
-  )
+export default function CareersPage() {
+  return <CareersContent />;
 }
-
-export default CareersPage
